@@ -24,6 +24,7 @@ BuildRequires:	Qt6Test-devel >= %{qtver}
 BuildRequires:	catdoc
 BuildRequires:	cmake >= 3.16
 BuildRequires:	kf6-extra-cmake-modules >= %{version}
+BuildRequires:	kf6-kirigami-devel >= %{version}
 BuildRequires:	ninja
 BuildRequires:	qt6-build >= %{qtver}
 BuildRequires:	rpmbuild(macros) >= 1.164
