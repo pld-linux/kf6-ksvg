@@ -5,17 +5,17 @@
 # TODO:
 # - runtime Requires if any
 
-%define		kdeframever	6.15
+%define		kdeframever	6.16
 %define		qtver		5.15.2
 %define		kfname		ksvg
 Summary:	svg library
 Name:		kf6-%{kfname}
-Version:	6.15.0
+Version:	6.16.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/frameworks/%{kdeframever}/%{kfname}-%{version}.tar.xz
-# Source0-md5:	915fac5a3052dc971d6a96326bb28a02
+# Source0-md5:	710f940fbdd5b407b492b7aa68f781c9
 URL:		http://www.kde.org/
 BuildRequires:	Qt6Gui-devel >= %{qtver}
 BuildRequires:	Qt6Quick-devel >= %{qtver}
